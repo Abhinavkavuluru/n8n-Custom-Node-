@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background with gradient -->
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#E74C3C;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield shape -->
+  <path d="M30 2 L52 12 L52 28 C52 42 30 58 30 58 C30 58 8 42 8 28 L8 12 L30 2 Z" 
+        fill="url(#shieldGradient)" 
+        stroke="#2C3E50" 
+        stroke-width="1"/>
+  
+  <!-- Red top section -->
+  <path d="M30 2 L52 12 L52 16 L8 16 L8 12 L30 2 Z" 
+        fill="#E74C3C"/>
+  
+  <!-- i95 text in white -->
+  <text x="30" y="32" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="white">i95</text>
+  
+  <!-- Dev text in white -->
+  <text x="30" y="46" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="normal" 
+        text-anchor="middle" 
+        fill="white">Dev</text>
+</svg>
